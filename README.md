@@ -1,8 +1,7 @@
-🚀 Upload Manager (iOS - SwiftUI)
+🚀 Upload Manager (iOS - Swift/SwiftUI)
 
 A sample iOS application built with SwiftUI that demonstrates how to handle multiple image uploads with progress tracking, concurrency control, and clean architecture principles.
 
-⸻
 
 🧠 Overview
 
@@ -14,8 +13,6 @@ This project simulates a real-world scenario where users select multiple images 
 
 It was designed to explore modern Swift patterns and system design concepts applied to mobile development.
 
-⸻
-
 🏗 Architecture
 
 The app follows a simplified MVVM + Service Layer approach:
@@ -24,8 +21,6 @@ The app follows a simplified MVVM + Service Layer approach:
 	•	ImageHandler → async image loading from PhotosPicker
 	•	UploadService → abstracted upload layer (dependency injected)
 
-⸻
-
 ⚙️ Key Features
 
 📸 Image Selection
@@ -33,36 +28,29 @@ The app follows a simplified MVVM + Service Layer approach:
 	•	Asynchronous image loading via loadTransferable
 	•	Decoupled into a dedicated ImageHandler
 
-⸻
-
 📊 Upload Management
 	•	Each image is represented as an UploadItem
 	•	Tracks:
 	•	progress (0 → 1)
 	•	status (pending, uploading, success, failed)
 
-⸻
-
 ⚡ Concurrency Control
 	•	Uses async/await and TaskGroup
 	•	Supports limited parallel uploads
 	•	Prevents overloading network/resources
 
-⸻
 
 🔁 Error Handling
 	•	Proper do/catch handling
 	•	Failure states reflected in UI
 	•	Easily extendable for retry logic
 
-⸻
 
 🎨 Dynamic UI Feedback
 	•	Real-time progress bars
 	•	Success / failure indicators
 	•	Fully reactive via @Published + SwiftUI
 
-⸻
 
 🧪 Unit Testing
 	•	ViewModel is fully testable via dependency injection
@@ -78,7 +66,6 @@ The app follows a simplified MVVM + Service Layer approach:
 	•	async/await
 	•	PhotosUI
 
-⸻
 
 💡 What This Project Demonstrates
 	•	Modern Swift concurrency patterns
@@ -87,7 +74,6 @@ The app follows a simplified MVVM + Service Layer approach:
 	•	Testable architecture
 	•	Handling large/batch operations on mobile
 
-⸻
 
 🚀 Possible Improvements
 	•	Background uploads using URLSessionConfiguration.background
@@ -96,7 +82,6 @@ The app follows a simplified MVVM + Service Layer approach:
 	•	Actor-based upload queue
 	•	Progress aggregation (overall upload progress)
 
-⸻
 
 🎯 Motivation
 
