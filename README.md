@@ -89,3 +89,9 @@ This project was built as a hands-on exercise to deepen knowledge in:
 	•	SwiftUI
 	•	concurrency
 	•	system design for mobile applications
+
+📲 Screenshots (light/dark appearance): 
+
+<img width="348" height="651" alt="Screenshot 2026-05-15 at 11 15 32" src="https://github.com/user-attachments/assets/56baa0b1-89b6-483d-a605-95a1ecea3c4c" />
+
+<img width="329" height="653" alt="Screenshot 2026-05-15 at 11 15 58" src="https://github.com/user-attachments/assets/e53fbca5-dc47-42e1-aecb-4adf5d9ed5ba" />
